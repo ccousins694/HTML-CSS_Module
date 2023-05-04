@@ -1,98 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        body {
+            background-color: lightgray;
+        }
+
+        .radiusboxone {
+            border: 2px solid black;
+            background: lightblue;
+            padding: 10px;
+            border-radius: 25px;
+        }
+
+        .tableone {
+            border-radius: 50px;
+            background: lightcoral;
+            padding: 20px;
+        }
+        table, th,td{
+            border: 1px solid;
+            border-collapse: collapse;
+        }
+
+        .radiusboxcopyright {
+            border: 2px solid black;
+            border-radius: 40rem;
+            background: lightseagreen;
+            padding: 20px;
+        }
+
+        .checkboxes {
+            border: 2px solid black;
+            background: lemonchiffon;
+            padding: 10px;
+            border-radius: 50px;
+        }
+    </style>
 
 </head>
 
-        <body>    
-            <div>
-                <style>
-                    .radiusboxone {
-                        border: 2px solid black;
-                        background: lightblue;   
-                        padding: 10px ;
-                        border-radius: 25px;
-                    }
-                </style>
-                
-                <div class="radiusboxone">
-                    <p> Company Logo | Contact Us | FAQ | Careers </p>
-                </div>
+<body>
 
-                <div>
-                    <style>
-                        .tableone{
-                            border-radius: 50px;
-                            background:lightcoral;
-                            padding: 20px;
-                        }
-                    </style>
+    <div>
 
-                    <table>
-                        <tr>
-                            <th>First Name</th>
-                            <th>Last Name</th>
-                            <th>Age</th>
-                        </tr>           
-                        <tr>
-                            <td>Joe</td>
-                            <td>Green</td>
-                            <td>32</td>
-                        </tr>
-                        <tr>
-                            <td>Peter</td>
-                            <td>Smith</td>
-                            <td>12</td>
-                        </tr>
-                        <tr>
-                            <td>Mary</td>
-                            <td>Sanders</td>
-                            <td>55</td>
-                        </tr> 
-                    </table>
-                </div>
+        <div class="radiusboxone">
+            <p> Company Logo | Contact Us | FAQ | Careers </p>
+        </div>
 
-            <div>
-                <style>
-                    .radiusboxcopyright{
-                        border: 2px solid black;
-                        border-radius: 40rem;
-                        background: lightseagreen;
-                        padding: 20px;
-                    }
+        <div>
 
-                </style>
+            <table>
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Age</th>
+                </tr>
+                <tr>
+                    <td>Joe</td>
+                    <td>Green</td>
+                    <td>32</td>
+                </tr>
+                <tr>
+                    <td>Peter</td>
+                    <td>Smith</td>
+                    <td>12</td>
+                </tr>
+                <tr>
+                    <td>Mary</td>
+                    <td>Sanders</td>
+                    <td>55</td>
+                </tr>
+            </table>
+        </div>
 
-                <div class="radiusboxcopyright">
-                <strong><p> Copyright 2022</p></strong>
+        
+        <div class="checkboxes">
+            
+            <form action="/action_page.php">
+                <input type="checkbox" id="Item 1" name="i=Item 1" value="Item 1">
+                <label for="Item 1">Item 1</label><br>
+                <input type="checkbox" id="Item 2" name="Item 2" value="Item 2">
+                <label for="Item 2">Item 2</label><br>
+                <input type="checkbox" id="Item 3" name="Item 3" value="Item 3">
+                <label for="Item 3">Item 3</label><br><br>
+            </form>
+        </div>
+        
+        <div class="radiusboxcopyright">
+            <strong>
+                <p> Copyright 2022</p>
+            </strong>
+    
+        </div>
+    </body>
 
-            </div>
-
-            <div class="checkboxes">
-                <style>
-                    {
-                        border: 2px solid black;
-                        background: lemonchiffon;   
-                        padding: 10px ;
-                        border-radius: 50px;
-                    }
-                </style>
-
-                <form action="/action_page.php">
-                    <input type="checkbox" id="Item 1" name="i=Item 1" value="Item 1">
-                    <label for="Item 1">Item 1</label><br>
-                    <input type="checkbox" id="Item 2" name="Item 2" value="Item 2">
-                    <label for="Item 2">Item 2</label><br>
-                    <input type="checkbox" id="Item 3" name="Item 3" value="Item 3">
-                    <label for="Item 3">Item 3</label><br><br>
-                    </form>
-            </div>
-
-        </body>
-   
 </html>
